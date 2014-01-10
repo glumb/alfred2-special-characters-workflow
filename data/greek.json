@@ -1,0 +1,252 @@
+[
+    {
+        "char": "Α",
+        "name": "Alpha",
+        "tags": "greek"
+    },
+    {
+        "char": "Β",
+        "name": "Beta",
+        "tags": "greek"
+    },
+    {
+        "char": "Γ",
+        "name": "Gamma",
+        "tags": "greek"
+    },
+    {
+        "char": "Δ",
+        "shortcut": "⌥  +  K",
+        "name": "Delta",
+        "tags": "greek"
+    },
+    {
+        "char": "Ε",
+        "name": "Epsilon",
+        "tags": "greek"
+    },
+    {
+        "char": "Ζ",
+        "name": "Zeta",
+        "tags": "greek"
+    },
+    {
+        "char": "Η",
+        "name": "Eta",
+        "tags": "greek"
+    },
+    {
+        "char": "Θ",
+        "name": "Theta",
+        "tags": "greek"
+    },
+    {
+        "char": "Ι",
+        "name": "Iota",
+        "tags": "greek"
+    },
+    {
+        "char": "Κ",
+        "name": "Kappa",
+        "tags": "greek"
+    },
+    {
+        "char": "Λ",
+        "name": "Lambda",
+        "tags": "greek"
+    },
+    {
+        "char": "Μ",
+        "name": "Mu",
+        "tags": "greek"
+    },
+    {
+        "char": "Ν",
+        "name": "Nu",
+        "tags": "greek"
+    },
+    {
+        "char": "Ξ",
+        "name": "Xi",
+        "tags": "greek"
+    },
+    {
+        "char": "Ο",
+        "name": "Omicron",
+        "tags": "greek"
+    },
+    {
+        "char": "Π",
+        "shortcut": "⌥  +  ⇧  +  P",
+        "name": "Pi",
+        "tags": "greek"
+    },
+    {
+        "char": "Ρ",
+        "name": "Rho",
+        "tags": "greek"
+    },
+    {
+        "char": "Σ",
+        "name": "Sigma",
+        "tags": "greek"
+    },
+    {
+        "char": "Τ",
+        "name": "Tau",
+        "tags": "greek"
+    },
+    {
+        "char": "Υ",
+        "name": "Ypsilon",
+        "tags": "greek"
+    },
+    {
+        "char": "Φ",
+        "name": "Phi",
+        "tags": "greek"
+    },
+    {
+        "char": "Χ",
+        "name": "Chi",
+        "tags": "greek"
+    },
+    {
+        "char": "Ψ",
+        "name": "Psi",
+        "tags": "greek"
+    },
+    {
+        "char": "Ω",
+        "shortcut": "⌥  +  Z",
+        "name": "Omega",
+        "tags": "greek"
+    },
+    {
+        "char": "α",
+        "name": "alpha",
+        "tags": "greek"
+    },
+    {
+        "char": "β",
+        "name": "beta",
+        "tags": "greek"
+    },
+    {
+        "char": "γ",
+        "name": "gamma",
+        "tags": "greek"
+    },
+    {
+        "char": "δ",
+        "name": "delta",
+        "tags": "greek"
+    },
+    {
+        "char": "ε",
+        "name": "epsilon",
+        "tags": "greek"
+    },
+    {
+        "char": "ζ",
+        "name": "zeta",
+        "tags": "greek"
+    },
+    {
+        "char": "η",
+        "name": "eta",
+        "tags": "greek"
+    },
+    {
+        "char": "θ",
+        "name": "theta",
+        "tags": "greek"
+    },
+    {
+        "char": "ι",
+        "name": "iota",
+        "tags": "greek"
+    },
+    {
+        "char": "κ",
+        "name": "kappa",
+        "tags": "greek"
+    },
+    {
+        "char": "λ",
+        "name": "lambda",
+        "tags": "greek"
+    },
+    {
+        "char": "μ",
+        "shortcut": "⌥  +  M",
+        "name": "mu",
+        "tags": "greek"
+    },
+    {
+        "char": "ν",
+        "name": "nu",
+        "tags": "greek"
+    },
+    {
+        "char": "ξ",
+        "name": "xi",
+        "tags": "greek"
+    },
+    {
+        "char": "ο",
+        "name": "omicron",
+        "tags": "greek"
+    },
+    {
+        "char": "π",
+        "shortcut": "⌥  +  P",
+        "name": "pi",
+        "tags": "greek"
+    },
+    {
+        "char": "ρ",
+        "name": "rho",
+        "tags": "greek"
+    },
+    {
+        "char": "ς",
+        "name": "finales sigma",
+        "tags": "greek"
+    },
+    {
+        "char": "σ",
+        "name": "sigma",
+        "tags": "greek"
+    },
+    {
+        "char": "τ",
+        "name": "tau",
+        "tags": "greek"
+    },
+    {
+        "char": "υ",
+        "name": "ypsilon",
+        "tags": "greek"
+    },
+    {
+        "char": "φ",
+        "name": "phi",
+        "tags": "greek"
+    },
+    {
+        "char": "χ",
+        "name": "chi",
+        "tags": "greek"
+    },
+    {
+        "char": "ψ",
+        "name": "psi",
+        "tags": "greek"
+    },
+    {
+        "char": "ω",
+        "name": "omega",
+        "tags": "greek"
+    }
+]

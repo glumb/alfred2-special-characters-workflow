@@ -1,0 +1,244 @@
+[
+    {
+        "char": "‘",
+        "name": "left single quote"
+    },
+    {
+        "char": "|",
+        "name": "pipe"
+    },
+    {
+        "char": "’",
+        "name": "right single quote"
+    },
+    {
+        "char": "‚",
+        "name": "single low-9 quote"
+    },
+    {
+        "char": "“",
+        "name": "left double quote"
+    },
+    {
+        "char": "”",
+        "name": "right double quote"
+    },
+    {
+        "char": "„",
+        "name": "double low-9 quote"
+    },
+    {
+        "char": "†",
+        "shortcut": "⌥ + t",
+        "name": "dagger"
+    },
+    {
+        "char": "‡",
+        "name": "double dagger"
+    },
+    {
+        "char": "…",
+        "name": "horizontal ellipsis"
+    },
+    {
+        "char": "‹",
+        "name": "single left-pointing angle quote"
+    },
+    {
+        "char": "›",
+        "name": "single right-pointing angle quote"
+    },
+    {
+        "char": "♠",
+        "shortcut": " ",
+        "name": "black spade suit"
+    },
+    {
+        "char": "♣",
+        "shortcut": " ",
+        "name": "black club suit"
+    },
+    {
+        "char": "♥",
+        "shortcut": " ",
+        "name": "black heart suit"
+    },
+    {
+        "char": "♦",
+        "shortcut": " ",
+        "name": "black diamond suit"
+    },
+    {
+        "char": "‾",
+        "shortcut": " ",
+        "name": "overline, = spacing overscore"
+    },
+    {
+        "char": "←",
+        "shortcut": " ",
+        "name": "leftward arrow"
+    },
+    {
+        "char": "↑",
+        "shortcut": " ",
+        "name": "upward arrow"
+    },
+    {
+        "char": "→",
+        "shortcut": " ",
+        "name": "rightward arrow"
+    },
+    {
+        "char": "↓",
+        "shortcut": " ",
+        "name": "downward arrow"
+    },
+    {
+        "char": "™",
+        "name": "trademark sign"
+    },
+    {
+        "char": "\"",
+        "name": "double quotation mark"
+    },
+    {
+        "char": "&",
+        "shortcut": " ⇧  +  6",
+        "name": "ampersand"
+    },
+    {
+        "char": "–",
+        "name": "en dash"
+    },
+    {
+        "char": "—",
+        "name": "em dash"
+    },
+    {
+        "char": " ",
+        "name": "nonbreaking space"
+    },
+    {
+        "char": "¡",
+        "name": "inverted exclamation"
+    },
+    {
+        "char": "¢",
+        "shortcut": "⌥ + 4",
+        "name": "cent sign",
+        "tags": "finance"
+    },
+    {
+        "char": "£",
+        "name": "pound sterling",
+        "tags": "finance"
+    },
+    {
+        "char": "¤",
+        "shortcut": " ",
+        "name": "general currency sign"
+    },
+    {
+        "char": "¥",
+        "name": "yen sign",
+        "tags": "finance"
+    },
+    {
+        "char": "¦",
+        "name": "broken vertical bar"
+    },
+    {
+        "char": "§",
+        "name": "section sign"
+    },
+    {
+        "char": "¨",
+        "name": "umlaut"
+    },
+    {
+        "char": "©",
+        "shortcut": "⌥ + g",
+        "name": "copyright"
+    },
+    {
+        "char": "ª",
+        "name": "feminine ordinal"
+    },
+    {
+        "char": "«",
+        "name": "left angle quote"
+    },
+    {
+        "char": "®",
+        "shortcut": "⌥ + r",
+        "name": "registered trademark"
+    },
+    {
+        "char": "¯",
+        "shortcut": " ",
+        "name": "macron accent"
+    },
+    {
+        "char": "°",
+        "name": "degree sign"
+    },
+    {
+        "char": "±",
+        "name": "plus or minus"
+    },
+    {
+        "char": "´",
+        "name": "acute accent"
+    },
+    {
+        "char": "µ",
+        "shortcut": "⌥ + m",
+        "name": "micro sign"
+    },
+    {
+        "char": "¶",
+        "shortcut": "⌥ + 3",
+        "name": "paragraph sign"
+    },
+    {
+        "char": "·",
+        "name": "middle dot"
+    },
+    {
+        "char": "¸",
+        "name": "cedilla"
+    },
+    {
+        "char": "º",
+        "name": "masculine ordinal"
+    },
+    {
+        "char": "»",
+        "name": "right angle quote"
+    },
+    {
+        "char": "¿",
+        "name": "inverted question mark"
+    },
+    {
+        "char": "~",
+        "shortcut": "⌥  +  N",
+        "name": "tilde"
+    },
+    {
+        "char": "@",
+        "shortcut": "⌥  +  L",
+        "name": "At sign"
+    },
+    {
+        "char": "€",
+        "shortcut": "⌥  +  E",
+        "name": "Euro",
+        "tags": "finance"
+    },
+    {
+        "char": "",
+        "shortcut": "⌥  +  ⇧  +  ' + '",
+        "name": "Apple Logo"
+    }
+]

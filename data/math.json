@@ -1,0 +1,79 @@
+[
+    {
+        "char": "‰",
+        "shortcut": "⇧  +  ⌥  +  E",
+        "name": "per mill sign",
+        "tags": "math"
+    },
+    {
+        "char": "<",
+        "shortcut": " ",
+        "name": "less-than sign",
+        "tags": "math"
+    },
+    {
+        "char": ">",
+        "shortcut": "⇧  +  <",
+        "name": "greater-than sign",
+        "tags": "math"
+    },
+    {
+        "char": "[",
+        "shortcut": " ⌥  +  5",
+        "name": "left square bracket",
+        "tags": "math"
+    },
+    {
+        "char": "]",
+        "shortcut": "⌥  +  6",
+        "name": "right square bracket",
+        "tags": "math"
+    },
+    {
+        "char": "¬",
+        "shortcut": "⇧ + ⌥  +  1",
+        "name": "not sign",
+        "tags": "math"
+    },
+    {
+        "char": "²",
+        "shortcut": " ",
+        "name": "superscript two",
+        "tags": "math"
+    },
+    {
+        "char": "³",
+        "shortcut": " ",
+        "name": "superscript three",
+        "tags": "math"
+    },
+    {
+        "char": "¹",
+        "shortcut": " ",
+        "name": "superscript one",
+        "tags": "math"
+    },
+    {
+        "char": "¼",
+        "shortcut": " ",
+        "name": "one-fourth",
+        "tags": "math"
+    },
+    {
+        "char": "½",
+        "shortcut": " ",
+        "name": "one-half",
+        "tags": "math"
+    },
+    {
+        "char": "¾",
+        "shortcut": " ",
+        "name": "three-fourths",
+        "tags": "math"
+    },
+    {
+        "char": "±",
+        "shortcut": "⇧ + '+'",
+        "name": "plusminus"
+    }
+]

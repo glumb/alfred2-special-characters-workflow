@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>special-characters</string>
+	<key>connections</key>
+	<dict>
+		<key>0AFFC698-13DE-4696-B48E-E58351493EE1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FE6AACA3-20D8-4E1D-B130-476003756542</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>1451D6A8-E239-4913-A041-E89FABFAFCF5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B0FE8A5C-061A-407A-AD49-2300BC1E43F1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>B0FE8A5C-061A-407A-AD49-2300BC1E43F1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A15CFC0F-524F-4397-93D9-393FAEC09EA1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Maximilian Beck</string>
+	<key>description</key>
+	<string>Displays special characters and their related keyboard shortcuts</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Special Chars</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>char</string>
+				<key>runningsubtext</key>
+				<string>loading characters - please wait</string>
+				<key>script</key>
+				<string>require('lib/workflows.php');
+require('cache/data.php');
+$w = new Workflows();
+
+$searchword = '{query}';
+$result = array_filter($data, function($var) use ($searchword) {
+ return preg_match("/$searchword/i", $var['tags']); 
+});
+
+echo $w-&gt;toxml( $result );</string>
+				<key>subtext</key>
+				<string>search for characters and key combinations</string>
+				<key>title</key>
+				<string>Special character list</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>0AFFC698-13DE-4696-B48E-E58351493EE1</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>FE6AACA3-20D8-4E1D-B130-476003756542</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>php -f processData.php</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B0FE8A5C-061A-407A-AD49-2300BC1E43F1</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>char rebuild</string>
+				<key>subtext</key>
+				<string>drop your json character files in /workflow/data</string>
+				<key>text</key>
+				<string>rebuild character list from json files</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>1451D6A8-E239-4913-A041-E89FABFAFCF5</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>title</key>
+				<string>Character cache created</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>A15CFC0F-524F-4397-93D9-393FAEC09EA1</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>0AFFC698-13DE-4696-B48E-E58351493EE1</key>
+		<dict>
+			<key>ypos</key>
+			<real>20</real>
+		</dict>
+		<key>1451D6A8-E239-4913-A041-E89FABFAFCF5</key>
+		<dict>
+			<key>ypos</key>
+			<real>260</real>
+		</dict>
+		<key>A15CFC0F-524F-4397-93D9-393FAEC09EA1</key>
+		<dict>
+			<key>ypos</key>
+			<real>260</real>
+		</dict>
+		<key>B0FE8A5C-061A-407A-AD49-2300BC1E43F1</key>
+		<dict>
+			<key>ypos</key>
+			<real>260</real>
+		</dict>
+		<key>FE6AACA3-20D8-4E1D-B130-476003756542</key>
+		<dict>
+			<key>ypos</key>
+			<real>20</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>http://glumb.de</string>
+</dict>
+</plist>
