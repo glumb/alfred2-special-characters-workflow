@@ -16,6 +16,14 @@
 				<key>modifiersubtext</key>
 				<string></string>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>05DA5DC7-EEEB-40BE-AAE4-9E911B144C7B</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
 		</array>
 		<key>1451D6A8-E239-4913-A041-E89FABFAFCF5</key>
 		<array>
@@ -59,6 +67,14 @@
 				<integer>127</integer>
 				<key>keyword</key>
 				<string>char</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>loading characters - please wait</string>
 				<key>script</key>
@@ -106,6 +122,23 @@ echo $w-&gt;toxml( $result );</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>05DA5DC7-EEEB-40BE-AAE4-9E911B144C7B</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
@@ -169,6 +202,11 @@ echo $w-&gt;toxml( $result );</string>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>05DA5DC7-EEEB-40BE-AAE4-9E911B144C7B</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
 		<key>0AFFC698-13DE-4696-B48E-E58351493EE1</key>
 		<dict>
 			<key>ypos</key>
