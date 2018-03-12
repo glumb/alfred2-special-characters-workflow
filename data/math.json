@@ -36,24 +36,6 @@
         "tags": "math"
     },
     {
-        "char": "²",
-        "shortcut": " ",
-        "name": "superscript two",
-        "tags": "math"
-    },
-    {
-        "char": "³",
-        "shortcut": " ",
-        "name": "superscript three",
-        "tags": "math"
-    },
-    {
-        "char": "¹",
-        "shortcut": " ",
-        "name": "superscript one",
-        "tags": "math"
-    },
-    {
         "char": "¼",
         "shortcut": " ",
         "name": "one-fourth",
@@ -75,5 +57,211 @@
         "char": "±",
         "shortcut": "⇧ + '+'",
         "name": "plusminus"
+    },
+    {
+        "char": "⁰",
+        "shortcut": " ",
+        "name": "superscript zero null 0",
+        "tags": "math"
+    }, {
+        "char": "¹",
+        "shortcut": " ",
+        "name": "superscript one 1",
+        "tags": "math"
+    }, {
+        "char": "²",
+        "shortcut": " ",
+        "name": "superscript two 2",
+        "tags": "math"
+    }, {
+        "char": "³",
+        "shortcut": " ",
+        "name": "superscript three 3",
+        "tags": "math"
+    }, {
+        "char": "⁴",
+        "shortcut": " ",
+        "name": "superscript four 4",
+        "tags": "math"
+    }, {
+        "char": "⁵",
+        "shortcut": " ",
+        "name": "superscript five 5",
+        "tags": "math"
+    }, {
+        "char": "⁶",
+        "shortcut": " ",
+        "name": "superscript six 6",
+        "tags": "math"
+    }, {
+        "char": "⁷",
+        "shortcut": " ",
+        "name": "superscript seven 7",
+        "tags": "math"
+    }, {
+        "char": "⁸",
+        "shortcut": " ",
+        "name": "superscript eight 8",
+        "tags": "math"
+    }, {
+        "char": "⁹",
+        "shortcut": " ",
+        "name": "superscript nine 9",
+        "tags": "math"
+    }, {
+        "char": "ⁱ",
+        "shortcut": " ",
+        "name": "superscript i",
+        "tags": "math"
+    }, {
+        "char": "⁺",
+        "shortcut": " ",
+        "name": "superscript +",
+        "tags": "math"
+    }, {
+        "char": "⁻",
+        "shortcut": " ",
+        "name": "superscript -",
+        "tags": "math"
+    }, {
+        "char": "⁼",
+        "shortcut": " ",
+        "name": "superscript equal",
+        "tags": "math"
+    }, {
+        "char": "⁽",
+        "shortcut": " ",
+        "name": "superscript open bracket",
+        "tags": "math"
+    }, {
+        "char": "⁾",
+        "shortcut": " ",
+        "name": "superscript close bracket",
+        "tags": "math"
+    }, {
+        "char": "ⁿ",
+        "shortcut": " ",
+        "name": "superscript n",
+        "tags": "math"
+    }, {
+        "char": "₀",
+        "shortcut": " ",
+        "name": "subscript  zeronull 0",
+        "tags": "math"
+    }, {
+        "char": "₁",
+        "shortcut": " ",
+        "name": "subscript one 1",
+        "tags": "math"
+    }, {
+        "char": "₂",
+        "shortcut": " ",
+        "name": "subscript two 2",
+        "tags": "math"
+    }, {
+        "char": "₃",
+        "shortcut": " ",
+        "name": "subscript three 3",
+        "tags": "math"
+    }, {
+        "char": "₄",
+        "shortcut": " ",
+        "name": "subscript four 4",
+        "tags": "math"
+    }, {
+        "char": "₅",
+        "shortcut": " ",
+        "name": "subscript five 5",
+        "tags": "math"
+    }, {
+        "char": "₆",
+        "shortcut": " ",
+        "name": "subscript six 6",
+        "tags": "math"
+    }, {
+        "char": "₇",
+        "shortcut": " ",
+        "name": "subscript seven 7",
+        "tags": "math"
+    }, {
+        "char": "₈",
+        "shortcut": " ",
+        "name": "subscript eight 8",
+        "tags": "math"
+    }, {
+        "char": "₉",
+        "shortcut": " ",
+        "name": "subscript nine 9",
+        "tags": "math"
+    }, {
+        "char": "₊",
+        "shortcut": " ",
+        "name": "superscript zero null 0",
+        "tags": "math"
+    }, {
+        "char": "ₐ",
+        "shortcut": " ",
+        "name": "subscript a",
+        "tags": "math"
+    }, {
+        "char": "ₑ",
+        "shortcut": " ",
+        "name": "subscript e",
+        "tags": "math"
+    }, {
+        "char": "ₒ",
+        "shortcut": " ",
+        "name": "subscript o",
+        "tags": "math"
+    }, {
+        "char": "ₓ",
+        "shortcut": " ",
+        "name": "subscript x",
+        "tags": "math"
+    }, {
+        "char": "ₔ",
+        "shortcut": " ",
+        "name": "subscript e",
+        "tags": "math"
+    }, {
+        "char": "ₕ",
+        "shortcut": " ",
+        "name": "subscript h",
+        "tags": "math"
+    }, {
+        "char": "ₖ",
+        "shortcut": " ",
+        "name": "subscript k",
+        "tags": "math"
+    }, {
+        "char": "ₗ",
+        "shortcut": " ",
+        "name": "subscript l",
+        "tags": "math"
+    }, {
+        "char": "ₘ",
+        "shortcut": " ",
+        "name": "subscript m",
+        "tags": "math"
+    }, {
+        "char": "ₙ",
+        "shortcut": " ",
+        "name": "subscript n",
+        "tags": "math"
+    }, {
+        "char": "ₚ",
+        "shortcut": " ",
+        "name": "subscript p",
+        "tags": "math"
+    }, {
+        "char": "ₛ",
+        "shortcut": " ",
+        "name": "subscript s",
+        "tags": "math"
+    }, {
+        "char": "ₜ",
+        "shortcut": " ",
+        "name": "subscript t",
+        "tags": "math"
     }
 ]
